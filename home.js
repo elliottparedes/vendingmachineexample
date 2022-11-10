@@ -12,7 +12,7 @@ $(document).ready(function()
 
 function getItems()
 {
-    $.get("http://vending.us-east-1.elasticbeanstalk.com/items", function(data,status)
+    $.get("https://cors-everywhere.herokuapp.com/http://vending.us-east-1.elasticbeanstalk.com/items", function(data,status)
     {
          $("#itemsContainer").empty();
          index=1;
